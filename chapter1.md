@@ -12,7 +12,7 @@ Video exercises should just contain bullet points describing the things you want
 * Each chapter should start with a video exercise.
 * Don't have two consecutive video exercises.
 * The effort to make a video grows faster than linearly with its length; try to limit it to 4 minutes/600 words of content. 
-* It is usually easier to write the scripts for the videos after you've written the conding and multiple choice exercises.
+* It is usually easier to write the scripts for the videos after you've written the coding and multiple choice exercises.
 * Video scripts are stored in text files in the `scripts` directory of the repository. 
 * You'll have to add those files with git; it isn't currently supported with Teach.
 

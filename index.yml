@@ -1,10 +1,20 @@
-course_title: Template R Course
+course_title: How To Make An R Course
 course_description: This is a template course.
 programming_language: r
 chapters:
-  - chapter_title: Template Chapter
-    chapter_description: This is a template chapter.
+  - chapter_title: Sample Exercises
+    chapter_description: >-
+      These exercises will teach you how to write your own exercises. Notice how
+      the Chapter title is written in Title Case.
     exercises:
+      - type: VideoExercise
+        title: A Video Exercise
+        content: >-
+          Video exercises should just contain bullet points describing the
+          things you want to talk about.
+      - type: MultipleChoiceExercise
+        title: A Multiple Choice Exercise
+        content: Multiple choice exercises
       - type: NormalExercise
-        title: Template exercise
-        content: This is a template exercise.
+        title: A Coding Exercise
+        content: Coding exercises should form the bulk of the course.

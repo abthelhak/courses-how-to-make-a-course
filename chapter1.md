@@ -167,15 +167,19 @@ triangles <- data.frame(
 # triangles has been pre-defined for you
 triangles
 
+# Use 3 underscores to denote things that the students
+# have to fill in
+___
+
 # Comments should match one to one with instructions
-
-
-# Comments should be limited to 60 chars
-
+___(___)
 
 # If the exercise requires students to assign a variable,
 # write the name here, with a <-
-x <- 
+x <- ___(___, ___)
+
+# Comments should be limited to 60 chars
+calc_hypo <- ___
 ```
 
 *** =solution
@@ -184,32 +188,58 @@ x <-
 # triangles has been pre-defined for you
 triangles
 
-# Comments should match one to one with instructions
+# Use 3 underscores to denote things that the students
+# have to fill in
 2 * triangles$x
 
-# Comments should be limited to 60 chars
+# Comments should match one to one with instructions
 sqrt(triangles$hypotenuse)
 
 # If the exercise requires students to assign a variable,
 # write the name here, with a <-
 x <- with(triangles, x ^ 2 + y ^ 2)
+
+# Comments should be limited to 60 chars
+calc_hypo <- function(x, y) {
+  x ^ 2 + y + 2
+}
 ```
 
 *** =sct
 ```{r}
-# Don't worry about writing tests for coding exercises; your DataCamp course creator will do this for you.
+# Don't worry about writing tests for coding exercises;
+# your DataCamp course creator will do this for you.
 # You should be aware of the common types of test that can be performed.
 ex() %>% {
+  # You can check that an error wasn't thrown
+  check_error(.)
+  
   # You can check that an expression wrote output to the console
   check_output_expr(., "2 * triangles$x")
+  
   # You can check that a function was called
   check_function(., "sqrt") %>% {
     # ... with a specific argument
     check_arg(., "x")
   }
+  
   # You can check that a variable was assigned
   check_object(., "x") %>%
     # ... and that it has the right value
+    check_equal()
+  
+  # You can check that a function was defined
+  check_fun_def(., "calc_hypo") %>%
+    # ... with the right arguments
+    check_arguments()
+    
+  # You can check the result of arbitrary code, 
+  # which is useful to make sure that the function works
+  # This check that the expression runs
+  check_expr(., "calc_hypo(3, 4)") %>%
+    # ... and returns a result (rather than throwing an error)
+    check_result() %>%
+    # ... and that it has the correct value
     check_equal()
 }
 success_msg("Wow! You now know how to write a great exercise.")

@@ -8,11 +8,9 @@
 
 ## Description
 
-This course consists of sample exercises that explain how to write exercises following DataCamp best practices.
+This course consists of sample exercises that explain how to write exercises following DataCamp best practices. You will learn about the components of the three exercise types (video, multiple choice, and coding), and how to make content that your students will appreciate. After you take this course, you'll be ready to make your own course!
 
 ## Learning objectives
-
-*The learning objectives should be specific and action-oriented. What are the key takeaways from your course? Here are some examples:*
 
 * Learn to write great exercises.
 * Avoid DataCamp course developers hassling you about bad style.

@@ -244,3 +244,41 @@ ex() %>% {
 }
 success_msg("Wow! You now know how to write a great exercise.")
 ```
+
+--- type:NormalExercise lang:r xp:100 skills:1 key:eb700e7d82
+## A coding exercise with data
+
+Click 'View' -> 'Datasets' to see the dataset upload pane. Convert your data to RDS format (or another binary or compressed format, if possible). Select your file then click 'Upload Dataset'.
+
+The upload process will first store the data in the `datasets` directory of the github repo, thne upload it to Amazon S3. Once you have uploaded your dataset, click its name in the Datasets pane to get its S3 link.
+
+*** =instructions
+
+* Use [`download.file()`](https://www.rdocumentation.org/packages/utils/topics/download.file) to store the dataset in the course's Docker image.
+    * See the [requirements.R](https://github.com/datacamp/courses-how-to-make-an-r-course/blob/master/requirements.R) file for how to do this.
+* In the pre-exercise code block, use [`read.csv()`](https://www.rdocumentation.org/packages/utils/topics/read.table) to import the dataset.
+
+*** =hint
+
+Download the data to the `/usr/local/share/datasets` directory.
+
+*** =pre_exercise_code
+```{r}
+# Import the iris dataset
+iris <- readRDS("/usr/local/share/datasets/iris.rds")
+```
+
+*** =sample_code
+```{r}
+
+```
+
+*** =solution
+```{r}
+
+```
+
+*** =sct
+```{r}
+success_msg("`requirements.R` is also used to describe which packages your course will use.")
+```

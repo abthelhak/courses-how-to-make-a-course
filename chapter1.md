@@ -2,10 +2,10 @@
 title: Sample Exercises
 description: >-
   These exercises will teach you how to write your own exercises. Notice how the
-  Chapter title is written in Title Case.
+  Chapter title is written in Title Case, but exercise titles are written in sentence case.
 
 --- type:VideoExercise lang:r xp:50 skills:1 key:e897462746
-## A Video Exercise
+## A video exercise
 
 Video exercises should just contain bullet points describing the things you want to talk about.
 
@@ -23,7 +23,7 @@ Video exercises should just contain bullet points describing the things you want
 //videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
 
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:fb611e1b51
-## A Multiple Choice Exercise
+## A multiple choice exercise
 
 This block of text should reiterate what was mentioned in the video, since it is very easy for students to miss important points the first time around.  You are writing markdown here, so you can do *italics*, **bold**, and `code`.
 
@@ -73,7 +73,7 @@ test_mc(
 ```
 
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:37c9d82c55
-## Another Multiple Choice Exercise
+## Another multiple choice exercise
 
 You can also write multiple choice exercises where more than one answer is correct. In this case, write the statements in the text block before the instructions, and use the instructions to let the student choose which statements are correct. For example:
 
@@ -116,7 +116,7 @@ test_mc(
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:f54715376f
-## A Coding Exercise
+## A coding exercise
 
 Coding exercises should form the bulk of the course. Just as with multiple choice exercises, you should begin by reiterating the important points from the video. You should also mention the datasets that are going to be used in the exercise, and the packages and functions that will be covered. If you mention a function, be sure to link to its RDocumentation page, like this. 
 

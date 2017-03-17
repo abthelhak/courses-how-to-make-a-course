@@ -2,6 +2,7 @@
 
 ## Helpful resources
 
+* Take the course: https://www.datacamp.com/courses/3324
 * Course admin page: https://www.datacamp.com/teach/repositories/945
 * Course dev documentation: https://www.datacamp.com/create/how
 * Technical documentation: https://www.datacamp.com/teach/documentation

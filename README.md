@@ -175,7 +175,7 @@ you'll be ready to make one of your own!
 
 **Prerequisites**
 
-- "Introduction to Teaching and Learning"
+- [Introduction to Teaching and Learning][teaching-and-learning]
 
 ## Helpful Resources
 
@@ -191,4 +191,5 @@ you'll be ready to make one of your own!
 [profile-catalina]: https://github.com/datacamp/learner-profiles#catalina
 [profile-pina]: https://github.com/datacamp/learner-profiles#pina
 [profile-thanh]: https://github.com/datacamp/learner-profiles#thanh
+[teaching-and-learning]: https://github.com/datacamp/courses-teaching-and-learning
 [wilson-teaching]: http://third-bit.com/teaching/

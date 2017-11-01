@@ -175,7 +175,7 @@ you'll be ready to make one of your own!
 
 **Prerequisites**
 
-- "Too Much About Teaching in Too Little Time" (introduction to pedagogy)
+- "Introduction to Teaching and Learning"
 
 ## Helpful Resources
 
